@@ -4,3 +4,6 @@ spring:
     url: ${DATABASE_URI}
     username: ${DATABASE_USERNAME}
     password: ${DATABASE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
